@@ -10,4 +10,6 @@
 
 @interface MR_PostCell_View : UIView
 
+@property (nonatomic, retain) UILabel *titleLabel;
+
 @end

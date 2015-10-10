@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MR_PhoneRegisterView : UIView
+typedef enum VerStep{
+    VerPhoneNum = 1,
+    VerCode,
+    Success,
+}VerStep;
 
+@interface MR_PhoneRegisterView : UIView
+{
+    UIVisualEffectView *bgview;
+    UILabel *stepLabel;
+    UITextField *phoneField;
+    UIButton *getVerButton;
+    
+    VerStep step;//验证步骤
+    NSTimer *timer;
+    NSInteger time;
+    NSString *userName;
+}
 @end

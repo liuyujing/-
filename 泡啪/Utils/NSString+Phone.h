@@ -10,4 +10,6 @@
 
 @interface NSString (Phone)
 
++ (BOOL)isMobileNumber:(NSString *)mobileNum;
+
 @end

@@ -1,3 +1,5 @@
+
+
 //
 //  MR_PostCell_View.m
 //  泡啪
@@ -10,12 +12,20 @@
 
 @implementation MR_PostCell_View
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        
+        self.titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 0, SCREEN_WIDTH-20, 30)];
+        [self addSubview:self.titleLabel];
+        
+        UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(self.titleLabel.frame), SCREEN_WIDTH, 100)];
+        imageView.image = [UIImage imageNamed:@"编辑框"];
+        [self addSubview:imageView];
+        
+    }
+    return self;
 }
-*/
 
 @end

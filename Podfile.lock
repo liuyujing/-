@@ -1,0 +1,36 @@
+PODS:
+  - BmobSDK (1.6.4)
+  - EaseMobSDK (2.1.9)
+  - JTSlideShadowAnimation (1.0.1)
+  - JVFloatingDrawer (0.1.0)
+  - MBProgressHUD (0.9.1)
+  - Reachability (3.2)
+  - RegexKitLite (4.0)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SMS-For-iOS (1.0.9)
+
+DEPENDENCIES:
+  - BmobSDK (~> 1.6.3)
+  - EaseMobSDK
+  - JTSlideShadowAnimation
+  - JVFloatingDrawer
+  - MBProgressHUD (~> 0.9.1)
+  - Reachability (~> 3.2)
+  - RegexKitLite
+  - SDWebImage (~> 3.7.3)
+  - SMS-For-iOS
+
+SPEC CHECKSUMS:
+  BmobSDK: 50aad04eae8c81ccdea6d6125c97e8cec49d8869
+  EaseMobSDK: cc8415cb99a65debf4711fa2c9c349fd5c843299
+  JTSlideShadowAnimation: abe7fb7b0be0690229e6fe6e93e77998e8cfe279
+  JVFloatingDrawer: 4782b1df21411aef2c1818f3b346cace02cc2e24
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SMS-For-iOS: e94abec27695d4085a9865d7894dba39cd1e09f2
+
+COCOAPODS: 0.38.2

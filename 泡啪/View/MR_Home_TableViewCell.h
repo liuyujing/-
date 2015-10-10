@@ -10,4 +10,8 @@
 
 @interface MR_Home_TableViewCell : UITableViewCell
 
+@property (nonatomic, retain) UIImageView *headerView;
+@property (nonatomic, retain) UILabel *contentLabel;
+@property (nonatomic, retain) UILabel *nameLabel;
+
 @end

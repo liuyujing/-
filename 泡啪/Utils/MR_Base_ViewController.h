@@ -10,4 +10,10 @@
 
 @interface MR_Base_ViewController : UIViewController
 
+@property (nonatomic, assign) BOOL hidenHUD;
+
+- (void)showHUDTitle:(NSString *)title;
+
+- (void)showHUDTitle:(NSString *)title andDelay:(NSTimeInterval)delayTime;
+
 @end

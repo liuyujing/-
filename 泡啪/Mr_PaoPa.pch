@@ -9,7 +9,15 @@
 #ifndef ___Mr_PaoPa_pch
 #define ___Mr_PaoPa_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#pragma mark -------坐标-----------
+#define SCREEN_BOUNDS [[UIScreen mainScreen] bounds]
+#define SCREEN_WIDTH CGRectGetWidth([[UIScreen mainScreen] bounds])
+#define SCREEN_HEIGHT CGRectGetHeight([[UIScreen mainScreen] bounds])
+
+#pragma mark -------头文件-----------
+#import <BmobSDK/Bmob.h>
+
+#define APP_Key @"ad46082a7cf0"
+#define APP_Secret @"134ace81799c60c837d964d8599fb3bb"
 
 #endif
